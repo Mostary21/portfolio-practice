@@ -4,6 +4,11 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: 500;
+}
+p{
+    color: #696969;
+    text-align: justify;
 }
 .name-color{
     color: #FFA500;
@@ -30,4 +35,38 @@ h1{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding: 10px 30px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+#full-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#ff9F7A, #ff6448);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#0005FF, #00F5FF);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.experience{
+    margin-bottom: 10px;
 }
